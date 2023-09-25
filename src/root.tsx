@@ -15,15 +15,13 @@ import {
 } from "solid-start";
 import { css, renderSheets, StyleRegistry, type StyleData } from "solid-styled";
 
-import logo from "./assets/logo.jpg";
-
 function GlobalStyles() {
   css`
     @global {
       body {
         font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
           "Helvetica Neue", sans-serif;
-        mergin: 0 !important;
+        margin: 0 !important;
       }
 
       a {
@@ -32,7 +30,6 @@ function GlobalStyles() {
 
       main {
         text-align: center;
-        padding: 1em;
         margin: 0 auto;
       }
 
@@ -40,15 +37,7 @@ function GlobalStyles() {
         display: flex;
         min-height: 10vh;
         border: 0.0625rem solid #dee2e6;
-      }
-      #header {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        max-width: 14rem;
-        gap: 8px;
+        box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
       }
 
       h1 {
@@ -82,13 +71,6 @@ function GlobalStyles() {
         line-height: 1.35;
       }
 
-      img {
-        border-radius: 100%;
-        width: 100%;
-        max-width: 5rem;
-        height: auto;
-      }
-
       @media (min-width: 480px) {
         h1 {
           max-width: none;
@@ -119,16 +101,10 @@ export default function Root() {
           <GlobalStyles />
           <Suspense>
             <ErrorBoundary>
-              <header>
-                <div id="header">
-                  <img src={logo}></img>
-                  <h2>Maple</h2>
-                </div>
-              </header>
-              <div>
+              {/* <div>
                 <A href="/">Index</A>
                 <A href="/about">About</A>
-              </div>
+              </div> */}
               <Routes>
                 <FileRoutes />
               </Routes>
