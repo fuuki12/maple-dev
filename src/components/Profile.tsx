@@ -32,6 +32,7 @@ export default function Profile() {
       <img src={logo}></img>
       <h2>Maple</h2>
       <span>software engineer</span>
+      <p>ベンチャーで主にReactを書いてます。SolidJS Love</p>
     </div>
   );
 }
