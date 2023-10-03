@@ -15,7 +15,7 @@ export default function Header() {
     }
 
     img {
-      border-radius: 100%;
+      border-radius: 50%;
       width: 100%;
       max-width: 5rem;
       height: auto;
