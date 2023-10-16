@@ -4,11 +4,11 @@ import { css } from "solid-styled";
 import logo from "~/assets/logo.jpg";
 import nextIcon from "~/assets/nextdotjs.svg";
 import reactIcon from "~/assets/react.svg";
-import solidIcon from "~/assets/solidjs.svg";
+import solidIcon from "~/assets/solid.svg";
 import typescriptIcon from "~/assets/typescript.svg";
 import svelteIcon from "~/assets/svelte.svg";
 import pythonIcon from "~/assets/python.svg";
-import githubActionIcon from "~/assets/githubaction.svg";
+import githubActionIcon from "~/assets/githubactions.svg";
 import javascriptIcon from "~/assets/javascript.svg";
 import amazonawsIcon from "~/assets/amazonaws.svg";
 
@@ -29,8 +29,10 @@ export default function Profile() {
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      width: 100%;
-      gap: 8px;
+      width: 80%;
+      gap: 12px;
+      padding: 14px;
+      border: 0.0625rem solid #dee2e6;
     }
 
     #profile {
