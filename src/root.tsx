@@ -14,6 +14,7 @@ import {
   Title,
 } from "solid-start";
 import { css, renderSheets, StyleRegistry, type StyleData } from "solid-styled";
+import { hydrate, renderToString } from "solid-js/web";
 
 function GlobalStyles() {
   css`

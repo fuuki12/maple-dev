@@ -4,7 +4,9 @@ import solidStyled from "vite-plugin-solid-styled";
 
 export default defineConfig({
   plugins: [
-    solid(),
+    solid({
+      adapter: "solid-start-static", // ここにアダプターの名前を
+    }),
     solidStyled({
       filter: {
         include: "src/**/*.tsx",

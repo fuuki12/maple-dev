@@ -1,3 +1,5 @@
+import { createResource, createEffect, onMount } from "solid-js";
+
 import Profile from "~/components/Profile";
 import Header from "~/components/Header";
 import About from "~/components/About";
