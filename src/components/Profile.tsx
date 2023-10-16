@@ -6,7 +6,6 @@ import githubIcon from "~/assets/github.svg";
 import zennIcon from "~/assets/zenn.svg";
 
 export default function Profile() {
-  const [count, setCount] = createSignal(0);
   css`
     #article {
       display: flex;
