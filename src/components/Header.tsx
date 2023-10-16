@@ -1,6 +1,6 @@
 import { css } from "solid-styled";
 
-import logo from "../assets/logo.jpg";
+import logo from "~/assets/logo.jpg";
 
 export default function Header() {
   css`
@@ -15,9 +15,9 @@ export default function Header() {
     }
 
     img {
-      border-radius: 50%;
+      border-radius: 30%;
       width: 100%;
-      max-width: 5rem;
+      max-width: 3.5rem;
       height: auto;
     }
   `;

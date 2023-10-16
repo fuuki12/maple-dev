@@ -1,7 +1,9 @@
 import { createSignal } from "solid-js";
 import { css } from "solid-styled";
 
-import logo from "../assets/logo.jpg";
+import logo from "~/assets/logo.jpg";
+import githubIcon from "~/assets/github.svg";
+import zennIcon from "~/assets/zenn.svg";
 
 export default function Profile() {
   const [count, setCount] = createSignal(0);
@@ -16,23 +18,56 @@ export default function Profile() {
       margin-top: 24px;
     }
 
-    img {
+    #icon {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      gap: 8px;
+    }
+
+    #profile {
       border-radius: 50%;
       width: 100%;
       max-width: 12rem;
       height: auto;
     }
 
-    span {
+    .network-icon {
+      border-radius: 30%;
+      width: 100%;
+      max-width: 3rem;
+      height: auto;
+      pointer: cursor;
+
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    #gray {
       color: #999;
     }
   `;
   return (
     <div id="article">
-      <img src={logo}></img>
+      <img id="profile" src={logo} />
       <h2>Maple</h2>
-      <span>software engineer</span>
-      <p>ベンチャーで主にReactを書いてます。SolidJS Love</p>
+      <span id="gray">software engineer</span>
+      <span>
+        ベンチャーで主にReactを書いてます。
+        <br />
+        <small id="gray">※このサイトは全てSolidJSで作成しています。</small>
+      </span>
+      <div id="icon">
+        <a href="http://github.com/fuuki12">
+          <img class="network-icon" src={githubIcon} />
+        </a>
+        <a href="https://zenn.dev/maple_siro">
+          <img class="network-icon" src={zennIcon} />
+        </a>
+      </div>
     </div>
   );
 }
