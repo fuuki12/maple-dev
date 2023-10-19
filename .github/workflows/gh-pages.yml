@@ -9,17 +9,25 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2.3.1 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
-
-      - name: Install and Build 🔧
-        run: |
-          npm install
-          npm run build
-
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+      - uses: actions/checkout@v3
         with:
-          branch: main # The branch the action should deploy to.
-          folder: dist/public # The folder the action should deploy.
-          token: ${{ secrets.GITHUB_TOKEN }} # GitHub personal access token (PAT) with repo and workflow permissions.
+          ref: ${{ github.event.pull_request.head.sha }}
+      - uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7.1.0
+      - run: |
+            pnpm install
+            pnpm build
+
+    - name: Move files  📂
+      run: |
+        mkdir -p docs
+        cp -R dist/public/* docs/
+
+
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@4.1.0
+      with:
+        branch: gh-pages
+        folder: docs
+        token: ${{ secrets.GITHUB_TOKEN }} # GitHub personal access token (PAT) with repo and workflow permissions.

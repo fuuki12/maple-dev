@@ -2,7 +2,7 @@
   "name": "maple-dev",
   "scripts": {
     "dev": "solid-start dev",
-    "build": "solid-start build",
+    "build": "solid-start build --config ./vite.config.ts",
     "start": "solid-start start"
   },
   "type": "module",
