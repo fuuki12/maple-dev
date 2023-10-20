@@ -22,7 +22,7 @@ jobs:
       - name: Move files  📂
         run: |
           mkdir -p docs
-          cp -R dist/public/* docs/
+          cp -R ./dist/public/* ./docs/
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
