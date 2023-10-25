@@ -25,10 +25,12 @@ jobs:
           ls -la ./docs
           ls -la .
           cp -R ./dist/public/* ./docs/
+          ls -la ./docs
+          ls -la .
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           token: ${{ secrets.MAPLE_TOKEN }}
-          branch: gh-pages3
+          branch: gh-pages4
           folder: docs
