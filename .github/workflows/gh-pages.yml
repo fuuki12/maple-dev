@@ -21,7 +21,6 @@ jobs:
 
       - name: Move files  📂
         run: |
-          mkdir -p docs
           cp -R ./dist/public/* ./docs/
 
       - name: Deploy 🚀
