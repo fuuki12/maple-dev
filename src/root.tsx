@@ -15,14 +15,18 @@ import {
 } from "solid-start";
 import { css, renderSheets, StyleRegistry, type StyleData } from "solid-styled";
 import { hydrate, renderToString } from "solid-js/web";
+import top from "~/assets/top.webp";
 
 function GlobalStyles() {
   css`
     @global {
       body {
-        font-family: Gordita, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
-          "Helvetica Neue", sans-serif;
+        font-family: "M PLUS 2", sans-serif;
         margin: 0 !important;
+        background-image: url("${top}");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
       }
 
       a {
@@ -36,13 +40,14 @@ function GlobalStyles() {
 
       header {
         display: flex;
-        min-height: 10vh;
+        justify-content: center;
+        min-height: 7vh;
         border: 0.0625rem solid #dee2e6;
         box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
       }
 
       h1 {
-        color: #335d92;
+        color: #d78484;
         text-transform: uppercase;
         font-size: 4rem;
         font-weight: 100;
@@ -59,17 +64,39 @@ function GlobalStyles() {
         line-height: 1.55;
         -webkit-text-decoration: none;
         text-decoration: none;
-        font-family: Open Sans;
         font-weight: normal;
         font-size: 1.375rem;
         line-height: 1.4;
         margin: 0;
       }
 
+      h3 {
+        color: #d78484;
+        font-size: inherit;
+        line-height: 1.55;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        font-size: 1.55rem;
+      }
+
       p {
         max-width: 14rem;
         margin: 2rem auto;
         line-height: 1.35;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        gap: 8px;
+        margin: 50px auto;
+        background-color: #e0e0e0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 10px;
       }
 
       @media (min-width: 480px) {
@@ -97,6 +124,12 @@ export default function Root() {
           <Title>Maple</Title>
           <Meta charset="utf-8" />
           <Meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+          <link
+            href="https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap"
+            rel="stylesheet"
+          ></link>
         </Head>
         <Body>
           <GlobalStyles />

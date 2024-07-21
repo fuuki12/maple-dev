@@ -5,7 +5,7 @@ import logo from "~/assets/logo.jpg";
 import githubIcon from "~/assets/github.svg";
 import zennIcon from "~/assets/zenn.svg";
 
-export default function Profile() {
+export default function Work() {
   css`
     #icon {
       display: flex;

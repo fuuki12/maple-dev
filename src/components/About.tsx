@@ -1,4 +1,4 @@
-import { For, createSignal } from "solid-js";
+import { For, createEffect, onCleanup } from "solid-js";
 import { css } from "solid-styled";
 
 import logo from "~/assets/logo.jpg";
@@ -11,19 +11,12 @@ import pythonIcon from "~/assets/python.svg";
 import githubActionIcon from "~/assets/githubactions.svg";
 import javascriptIcon from "~/assets/javascript.svg";
 import amazonawsIcon from "~/assets/amazonaws.svg";
+import goIcon from "~/assets/go.svg";
+import kotlinIcon from "~/assets/Kotlin logo.svg";
+import vueIcon from "~/assets/Vue.js.svg";
 
 export default function Profile() {
   css`
-    #article {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      gap: 8px;
-      margin-top: 24px;
-    }
-
     #icon {
       display: flex;
       flex-direction: row;
@@ -54,36 +47,94 @@ export default function Profile() {
       }
     }
 
+    .progress-bar {
+      width: 100%;
+      background-color: #f1f1f1;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .progress {
+      height: 20px;
+      background-color: #b5b5ff;
+      text-align: center;
+      line-height: 20px;
+      color: white;
+      border-radius: 8px;
+    }
+
     #gray {
       color: #999;
     }
   `;
 
+  createEffect(() => {
+    const handleScroll = () => {
+      // ドキュメントの高さ
+      const docHeight =
+        document.documentElement.scrollHeight -
+        document.documentElement.clientHeight;
+      // 現在のスクロール位置
+      const scrollTop = document.documentElement.scrollTop;
+      // スクロール位置に基づいてプログレスを計算（0から100まで）
+      const scrollPercent = (scrollTop / docHeight) * 100;
+
+      // 各プログレスバーの長さを更新
+      iconObj.forEach((icon, index) => {
+        const progressBar = document.querySelector(
+          `#progress-${index}`
+        ) as HTMLElement;
+        if (progressBar) {
+          progressBar.style.width = `${Math.min(scrollPercent, icon.level)}%`;
+        }
+      });
+    };
+
+    // スクロールイベントリスナーを追加
+    window.addEventListener("scroll", handleScroll);
+
+    // コンポーネントのアンマウント時にイベントリスナーを削除
+    onCleanup(() => {
+      window.removeEventListener("scroll", handleScroll);
+    });
+  });
+
   const iconObj = [
-    { img: nextIcon, name: "Next.js" },
-    { img: reactIcon, name: "React" },
-    { img: solidIcon, name: "SolidJS" },
-    { img: typescriptIcon, name: "TypeScript" },
-    { img: svelteIcon, name: "Svelte" },
-    { img: pythonIcon, name: "Python" },
-    { img: githubActionIcon, name: "GitHub Actions" },
-    { img: javascriptIcon, name: "JavaScript" },
-    { img: amazonawsIcon, name: "AWS" },
+    { img: javascriptIcon, name: "JavaScript", level: 95 },
+    { img: typescriptIcon, name: "TypeScript", level: 90 },
+    { img: reactIcon, name: "React", level: 90 },
+    { img: vueIcon, name: "Vue.js", level: 80 },
+    { img: nextIcon, name: "Next.js", level: 80 },
+    { img: solidIcon, name: "SolidJS", level: 75 },
+    { img: svelteIcon, name: "Svelte", level: 60 },
+    { img: pythonIcon, name: "Python", level: 70 },
+    { img: kotlinIcon, name: "Kotlin", level: 60 },
+    { img: goIcon, name: "Go", level: 30 },
+    { img: githubActionIcon, name: "GitHub Actions", level: 65 },
+    { img: amazonawsIcon, name: "AWS", level: 50 },
   ];
 
   return (
-    <div id="article">
-      <h2>Skills</h2>
-      <For each={iconObj}>
-        {(key) => {
-          return (
+    <section>
+      <div class="card">
+        <h3>Skills</h3>
+        <For each={iconObj}>
+          {(key, index) => (
             <div id="icon">
               <img class="network-icon" src={key.img} />
-              <span>{key.name}</span>
+              <div class="progress-bar">
+                <div
+                  id={`progress-${index()}`}
+                  class="progress"
+                  style={{ width: "0%" }}
+                >
+                  {key.name}
+                </div>
+              </div>
             </div>
-          );
-        }}
-      </For>
-    </div>
+          )}
+        </For>
+      </div>
+    </section>
   );
 }
