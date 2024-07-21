@@ -1,0 +1,431 @@
+{
+  "\u0000vite/preload-helper": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/@solidjs+meta@0.28.6_solid-js@1.7.11/node_modules/@solidjs/meta/dist/index.jsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/@solidjs+router@0.8.3_solid-js@1.7.11/node_modules/@solidjs/router/dist/components.jsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/@solidjs+router@0.8.3_solid-js@1.7.11/node_modules/@solidjs/router/dist/integration.js": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/@solidjs+router@0.8.3_solid-js@1.7.11/node_modules/@solidjs/router/dist/lifecycle.js": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/@solidjs+router@0.8.3_solid-js@1.7.11/node_modules/@solidjs/router/dist/routing.js": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/@solidjs+router@0.8.3_solid-js@1.7.11/node_modules/@solidjs/router/dist/utils.js": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-js@1.7.11/node_modules/solid-js/dist/solid.js": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-js@1.7.11/node_modules/solid-js/web/dist/web.js": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-start@0.3.5_@solidjs+meta@0.28.6_@solidjs+router@0.8.3_solid-js@1.7.11_solid-start-node_ekxpiapwk3h44clzlqhh3med3m/node_modules/solid-start/entry-client/StartClient.tsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-start@0.3.5_@solidjs+meta@0.28.6_@solidjs+router@0.8.3_solid-js@1.7.11_solid-start-node_ekxpiapwk3h44clzlqhh3med3m/node_modules/solid-start/entry-client/mount.tsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-start@0.3.5_@solidjs+meta@0.28.6_@solidjs+router@0.8.3_solid-js@1.7.11_solid-start-node_ekxpiapwk3h44clzlqhh3med3m/node_modules/solid-start/error-boundary/ErrorBoundary.tsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-start@0.3.5_@solidjs+meta@0.28.6_@solidjs+router@0.8.3_solid-js@1.7.11_solid-start-node_ekxpiapwk3h44clzlqhh3med3m/node_modules/solid-start/root/Document.tsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-start@0.3.5_@solidjs+meta@0.28.6_@solidjs+router@0.8.3_solid-js@1.7.11_solid-start-node_ekxpiapwk3h44clzlqhh3med3m/node_modules/solid-start/root/FileRoutes.tsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-start@0.3.5_@solidjs+meta@0.28.6_@solidjs+router@0.8.3_solid-js@1.7.11_solid-start-node_ekxpiapwk3h44clzlqhh3med3m/node_modules/solid-start/root/Scripts.tsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-start@0.3.5_@solidjs+meta@0.28.6_@solidjs+router@0.8.3_solid-js@1.7.11_solid-start-node_ekxpiapwk3h44clzlqhh3med3m/node_modules/solid-start/router.tsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-start@0.3.5_@solidjs+meta@0.28.6_@solidjs+router@0.8.3_solid-js@1.7.11_solid-start-node_ekxpiapwk3h44clzlqhh3med3m/node_modules/solid-start/server/ServerContext.tsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-start@0.3.5_@solidjs+meta@0.28.6_@solidjs+router@0.8.3_solid-js@1.7.11_solid-start-node_ekxpiapwk3h44clzlqhh3med3m/node_modules/solid-start/server/types.tsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "node_modules/.pnpm/solid-styled@0.8.2_@babel+core@7.22.17_solid-js@1.7.11/node_modules/solid-styled/dist/esm/production/index.mjs": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "src/assets/Kotlin logo.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/Vue.js.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/amazonaws.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/github.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/githubactions.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/go.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/javascript.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/logo.jpg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/nextdotjs.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/python.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/react.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/solid.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/svelte.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/top.webp": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "src/assets/typescript.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/assets/zenn.svg": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/components/About.tsx": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/components/Header.tsx": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/components/Profile.tsx": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/components/Work.tsx": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ],
+  "src/entry-client.tsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "src/root.tsx": [
+    "/assets/top-e0b084ba.webp"
+  ],
+  "src/routes/[...404].tsx": [
+    "/assets/_...404_-3f21c4a2.js"
+  ],
+  "src/routes/index.tsx": [
+    "/assets/index-84e55429.js",
+    "/assets/logo-0cb0aae1.jpg",
+    "/assets/github-3bf8ccee.svg",
+    "/assets/zenn-9d995624.svg",
+    "/assets/nextdotjs-0bcaa5c9.svg",
+    "/assets/react-ab9136a1.svg",
+    "/assets/solid-fddd6687.svg",
+    "/assets/typescript-7f023e8d.svg",
+    "/assets/svelte-a38cef0f.svg",
+    "/assets/python-ad9468e1.svg",
+    "/assets/githubactions-e8b23379.svg",
+    "/assets/javascript-c9be35a7.svg",
+    "/assets/amazonaws-79224fcf.svg",
+    "/assets/go-36a745fe.svg",
+    "/assets/Kotlin logo-909d1ba6.svg",
+    "/assets/Vue.js-2a57b59b.svg"
+  ]
+}

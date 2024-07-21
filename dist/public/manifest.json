@@ -1,0 +1,111 @@
+{
+  "src/assets/Kotlin logo.svg": {
+    "file": "assets/Kotlin logo-909d1ba6.svg",
+    "src": "src/assets/Kotlin logo.svg"
+  },
+  "src/assets/Vue.js.svg": {
+    "file": "assets/Vue.js-2a57b59b.svg",
+    "src": "src/assets/Vue.js.svg"
+  },
+  "src/assets/amazonaws.svg": {
+    "file": "assets/amazonaws-79224fcf.svg",
+    "src": "src/assets/amazonaws.svg"
+  },
+  "src/assets/github.svg": {
+    "file": "assets/github-3bf8ccee.svg",
+    "src": "src/assets/github.svg"
+  },
+  "src/assets/githubactions.svg": {
+    "file": "assets/githubactions-e8b23379.svg",
+    "src": "src/assets/githubactions.svg"
+  },
+  "src/assets/go.svg": {
+    "file": "assets/go-36a745fe.svg",
+    "src": "src/assets/go.svg"
+  },
+  "src/assets/javascript.svg": {
+    "file": "assets/javascript-c9be35a7.svg",
+    "src": "src/assets/javascript.svg"
+  },
+  "src/assets/logo.jpg": {
+    "file": "assets/logo-0cb0aae1.jpg",
+    "src": "src/assets/logo.jpg"
+  },
+  "src/assets/nextdotjs.svg": {
+    "file": "assets/nextdotjs-0bcaa5c9.svg",
+    "src": "src/assets/nextdotjs.svg"
+  },
+  "src/assets/python.svg": {
+    "file": "assets/python-ad9468e1.svg",
+    "src": "src/assets/python.svg"
+  },
+  "src/assets/react.svg": {
+    "file": "assets/react-ab9136a1.svg",
+    "src": "src/assets/react.svg"
+  },
+  "src/assets/solid.svg": {
+    "file": "assets/solid-fddd6687.svg",
+    "src": "src/assets/solid.svg"
+  },
+  "src/assets/svelte.svg": {
+    "file": "assets/svelte-a38cef0f.svg",
+    "src": "src/assets/svelte.svg"
+  },
+  "src/assets/top.webp": {
+    "file": "assets/top-e0b084ba.webp",
+    "src": "src/assets/top.webp"
+  },
+  "src/assets/typescript.svg": {
+    "file": "assets/typescript-7f023e8d.svg",
+    "src": "src/assets/typescript.svg"
+  },
+  "src/assets/zenn.svg": {
+    "file": "assets/zenn-9d995624.svg",
+    "src": "src/assets/zenn.svg"
+  },
+  "src/entry-client.tsx": {
+    "assets": [
+      "assets/top-e0b084ba.webp"
+    ],
+    "dynamicImports": [
+      "src/routes/[...404].tsx",
+      "src/routes/index.tsx"
+    ],
+    "file": "assets/entry-client-a09e1320.js",
+    "isEntry": true,
+    "src": "src/entry-client.tsx"
+  },
+  "src/routes/[...404].tsx": {
+    "file": "assets/_...404_-3f21c4a2.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/[...404].tsx"
+  },
+  "src/routes/index.tsx": {
+    "assets": [
+      "assets/logo-0cb0aae1.jpg",
+      "assets/github-3bf8ccee.svg",
+      "assets/zenn-9d995624.svg",
+      "assets/nextdotjs-0bcaa5c9.svg",
+      "assets/react-ab9136a1.svg",
+      "assets/solid-fddd6687.svg",
+      "assets/typescript-7f023e8d.svg",
+      "assets/svelte-a38cef0f.svg",
+      "assets/python-ad9468e1.svg",
+      "assets/githubactions-e8b23379.svg",
+      "assets/javascript-c9be35a7.svg",
+      "assets/amazonaws-79224fcf.svg",
+      "assets/go-36a745fe.svg",
+      "assets/Kotlin logo-909d1ba6.svg",
+      "assets/Vue.js-2a57b59b.svg"
+    ],
+    "file": "assets/index-84e55429.js",
+    "imports": [
+      "src/entry-client.tsx"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/routes/index.tsx"
+  }
+}
