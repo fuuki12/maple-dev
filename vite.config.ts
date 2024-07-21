@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import solidStyled from "vite-plugin-solid-styled";
 
 export default defineConfig({
-  base: "./",
+  base: "/maple-dev/",
   plugins: [
     solid({
       adapter: "solid-start-static", // アダプターの名前
