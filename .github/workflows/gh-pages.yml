@@ -21,15 +21,10 @@ jobs:
 
       - name: Move files  📂
         run: |
-          ls -la ./dist/public
-          ls -la ./docs
-          ls -la .
           cp -R ./dist/public/* ./docs/
-          ls -la ./docs
-          ls -la .
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.1.0
+        uses: JamesIves/github-pages-deploy-action@4.6.3
         with:
           token: ${{ secrets.MAPLE_TOKEN }}
           branch: gh-pages5
