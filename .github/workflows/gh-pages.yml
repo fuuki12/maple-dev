@@ -32,5 +32,5 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
           token: ${{ secrets.MAPLE_TOKEN }}
-          branch: gh-pages5
+          branch: main
           folder: ./docs
