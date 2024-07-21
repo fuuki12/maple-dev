@@ -3,9 +3,10 @@ import { defineConfig } from "vite";
 import solidStyled from "vite-plugin-solid-styled";
 
 export default defineConfig({
+  base: "/docs/",
   plugins: [
     solid({
-      adapter: "solid-start-static", // ここにアダプターの名前を
+      adapter: "solid-start-static", // アダプターの名前
     }),
     solidStyled({
       filter: {
@@ -14,4 +15,8 @@ export default defineConfig({
       },
     }),
   ],
+  build: {
+    minify: true, // 本番ビルドでのコード圧縮を有効にする
+    assetsInlineLimit: 4096,
+  },
 });
