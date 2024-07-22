@@ -1,12 +1,21 @@
-import { createSignal } from "solid-js";
+import { For } from "solid-js";
 import { css } from "solid-styled";
-
-import logo from "~/assets/logo.jpg";
-import githubIcon from "~/assets/github.svg";
-import zennIcon from "~/assets/zenn.svg";
 
 export default function Work() {
   css`
+    .subCard {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: auto;
+      margin: 50px auto;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
     #icon {
       display: flex;
       flex-direction: row;
@@ -14,6 +23,12 @@ export default function Work() {
       justify-content: center;
       width: 100%;
       gap: 8px;
+    }
+
+    .work-container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
     }
 
     #profile {
@@ -39,27 +54,42 @@ export default function Work() {
       color: #999;
     }
   `;
+
+  const works = [
+    {
+      title: "株式会社SODA",
+      description:
+        "CtoCのフロントエンド開発、よりデザインを重視したLPの作成なども行っています。また、フロントエンドアーキテクチャの構築導入を行っております。",
+      period: "202402 - 現在",
+    },
+    {
+      title: "株式会社LabBase",
+      description:
+        "フロントエンドエンジニアとして、就職支援サービスの開発を行っていました。",
+      period: "202210 - 202401",
+    },
+    {
+      title: "株式会社DynaxT",
+      description:
+        "主にJavaやC#を使用した業務系Webアプリケーションのバックエンド開発を行っていました。",
+      period: "202210 - 202401",
+    },
+  ];
+
   return (
     <section>
       <div class="card">
-        <h3>Profile</h3>
-        <img id="profile" src={logo} />
-        <h2>Maple</h2>
-        <span id="gray">software engineer</span>
-        <span>
-          株式会社SODAでフロントエンドエンジニアをしています。
-          <br />
-          フロントエンドアーキテクチャやデザインシステムの構築に興味があります。
-          <br />
-          <small id="gray">※このサイトは全てSolidJSで作成しています。</small>
-        </span>
-        <div id="icon">
-          <a href="http://github.com/fuuki12">
-            <img class="network-icon" src={githubIcon} />
-          </a>
-          <a href="https://zenn.dev/maple_siro">
-            <img class="network-icon" src={zennIcon} />
-          </a>
+        <h3>Works</h3>
+        <div class="work-container">
+          <For each={works}>
+            {(work) => (
+              <div class="subCard">
+                <h4>{work.title}</h4>
+                <span>{work.description}</span>
+                <span>{work.period}</span>
+              </div>
+            )}
+          </For>
         </div>
       </div>
     </section>

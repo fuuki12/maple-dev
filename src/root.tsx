@@ -16,6 +16,7 @@ import {
 import { css, renderSheets, StyleRegistry, type StyleData } from "solid-styled";
 import { hydrate, renderToString } from "solid-js/web";
 import top from "~/assets/top.webp";
+import ParticlesBackground from "~/components/ParticlesBackground";
 
 function GlobalStyles() {
   css`
@@ -23,10 +24,7 @@ function GlobalStyles() {
       body {
         font-family: "M PLUS 2", sans-serif;
         margin: 0 !important;
-        background-image: url("${top}");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
+        background-color: #000;
       }
 
       a {
@@ -42,6 +40,7 @@ function GlobalStyles() {
         display: flex;
         justify-content: center;
         min-height: 7vh;
+        background-color: #fff;
         border: 0.0625rem solid #dee2e6;
         box-shadow: 0 0.0625rem 0.125rem rgba(0, 0, 0, 0.1);
       }
@@ -133,6 +132,7 @@ export default function Root() {
         </Head>
         <Body>
           <GlobalStyles />
+          <ParticlesBackground />
           <Suspense>
             <ErrorBoundary>
               {/* <div>
