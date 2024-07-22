@@ -1,4 +1,12 @@
 {
+  "src/assets/Kotlin logo.svg": {
+    "file": "assets/Kotlin logo-909d1ba6.svg",
+    "src": "src/assets/Kotlin logo.svg"
+  },
+  "src/assets/Vue.js.svg": {
+    "file": "assets/Vue.js-2a57b59b.svg",
+    "src": "src/assets/Vue.js.svg"
+  },
   "src/assets/amazonaws.svg": {
     "file": "assets/amazonaws-79224fcf.svg",
     "src": "src/assets/amazonaws.svg"
@@ -10,6 +18,10 @@
   "src/assets/githubactions.svg": {
     "file": "assets/githubactions-e8b23379.svg",
     "src": "src/assets/githubactions.svg"
+  },
+  "src/assets/go.svg": {
+    "file": "assets/go-36a745fe.svg",
+    "src": "src/assets/go.svg"
   },
   "src/assets/javascript.svg": {
     "file": "assets/javascript-c9be35a7.svg",
@@ -52,12 +64,12 @@
       "src/routes/[...404].tsx",
       "src/routes/index.tsx"
     ],
-    "file": "assets/entry-client-aa8afad2.js",
+    "file": "assets/entry-client-baf590c8.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404].tsx": {
-    "file": "assets/_...404_-52bc8401.js",
+    "file": "assets/_...404_-39cde3c8.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -77,9 +89,12 @@
       "assets/python-ad9468e1.svg",
       "assets/githubactions-e8b23379.svg",
       "assets/javascript-c9be35a7.svg",
-      "assets/amazonaws-79224fcf.svg"
+      "assets/amazonaws-79224fcf.svg",
+      "assets/go-36a745fe.svg",
+      "assets/Kotlin logo-909d1ba6.svg",
+      "assets/Vue.js-2a57b59b.svg"
     ],
-    "file": "assets/index-340f04d0.js",
+    "file": "assets/index-5baeb5ef.js",
     "imports": [
       "src/entry-client.tsx"
     ],
