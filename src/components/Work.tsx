@@ -8,7 +8,7 @@ export default function Work() {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: auto;
+      width: 80%;
       margin: 50px auto;
       background-color: #fff;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
