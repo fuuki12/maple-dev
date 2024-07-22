@@ -3,16 +3,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/maple-dev/assets/_...404_-39cde3c8.js"
+      "href": "/maple-dev/assets/_...404_-1d26d1cf.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/maple-dev/assets/_...404_-39cde3c8.js"
+        "href": "/maple-dev/assets/_...404_-1d26d1cf.js"
       },
       {
         "type": "script",
-        "href": "/maple-dev/assets/entry-client-baf590c8.js"
+        "href": "/maple-dev/assets/entry-client-d485d831.js"
       }
     ]
   },
@@ -20,16 +20,16 @@
     "type": "route",
     "script": {
       "type": "script",
-      "href": "/maple-dev/assets/index-5baeb5ef.js"
+      "href": "/maple-dev/assets/index-b44e0d4a.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/maple-dev/assets/index-5baeb5ef.js"
+        "href": "/maple-dev/assets/index-b44e0d4a.js"
       },
       {
         "type": "script",
-        "href": "/maple-dev/assets/entry-client-baf590c8.js"
+        "href": "/maple-dev/assets/entry-client-d485d831.js"
       },
       {
         "type": "asset",
@@ -97,12 +97,12 @@
     "type": "entry",
     "script": {
       "type": "script",
-      "href": "/maple-dev/assets/entry-client-baf590c8.js"
+      "href": "/maple-dev/assets/entry-client-d485d831.js"
     },
     "assets": [
       {
         "type": "script",
-        "href": "/maple-dev/assets/entry-client-baf590c8.js"
+        "href": "/maple-dev/assets/entry-client-d485d831.js"
       }
     ]
   },

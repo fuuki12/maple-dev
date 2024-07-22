@@ -64,12 +64,12 @@
       "src/routes/[...404].tsx",
       "src/routes/index.tsx"
     ],
-    "file": "assets/entry-client-baf590c8.js",
+    "file": "assets/entry-client-d485d831.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404].tsx": {
-    "file": "assets/_...404_-39cde3c8.js",
+    "file": "assets/_...404_-1d26d1cf.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -94,7 +94,7 @@
       "assets/Kotlin logo-909d1ba6.svg",
       "assets/Vue.js-2a57b59b.svg"
     ],
-    "file": "assets/index-5baeb5ef.js",
+    "file": "assets/index-b44e0d4a.js",
     "imports": [
       "src/entry-client.tsx"
     ],
